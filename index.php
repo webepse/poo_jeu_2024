@@ -1,5 +1,7 @@
 <?php
-    require "Personnage.php";
+    require "class/Autoloader.php";
+    Autoloader::register();
+
     $aragorn = new Personnage("Aragorn");
     $gimli = new Personnage("Gimli");
 
@@ -27,4 +29,7 @@
     echo Personnage::withZero(8);
     echo "<h1>info vie Gandalf</h1>";
     echo $gandalf->infoVie();
+
+    $rex = new Chien("Rex","Staff","Morrison");
+    $rex->getMaitre();
 ?>
