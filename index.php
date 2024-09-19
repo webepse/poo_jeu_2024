@@ -32,4 +32,13 @@
 
     $rex = new Chien("Rex","Staff","Morrison");
     $rex->getMaitre();
+
+    $legolas = new Archer("Legolas");
+    $legolas->crier("Legolas!!");
+    echo $legolas->infoVie();
+    var_dump($aragorn);
+    var_dump($legolas);
+
+    echo $legolas->getMdp();
+    echo $legolas->mdp;
 ?>

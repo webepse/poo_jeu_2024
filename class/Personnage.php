@@ -4,6 +4,7 @@
         public int $vie = 80;
         public int $atk = 30;
         public string $name;
+        protected string $mdp = "password";
         
         /**
          * Constructeur de l'objet Personnage
